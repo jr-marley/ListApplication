@@ -43,11 +43,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'quickstart.apps.QuickstartConfig'
-    'corsheaders',
+#     'corsheaders',
 ]
 
 MIDDLEWARE = [
-    'corsheaders.middleware.CorsMiddleware',
+#     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -132,6 +132,6 @@ STATIC_URL = '/static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CORS_ORIGIN_WHITELIST = [
-    'https://xbylc.csb.app/',
-]
+# CORS_ORIGIN_WHITELIST = [
+#     'https://xbylc.csb.app/',
+# ]
